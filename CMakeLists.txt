@@ -1,9 +1,7 @@
 
 cmake_minimum_required(VERSION 2.8)
 
-if(UNIX)
-    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=gnu++0x -std=c++11")
-endif()
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=gnu++0x -std=c++11")
 
 PROJECT(hackRF_tx)
 
