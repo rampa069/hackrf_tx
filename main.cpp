@@ -120,7 +120,7 @@ int main(int argc, char *argv[])
 				wav_end=1;
 			}
 		}
-		usleep(1000);
+		usleep(500);
 	}
 
 	//Audio_WAV_CloseWriter(&wavFile);
