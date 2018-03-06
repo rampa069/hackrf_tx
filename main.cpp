@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 	        break;
             case '?':
                 fprintf( stderr, "Unrecognized option!\n" );
-                fprintf( stderr, "-f (freq) default: %ul\n",center_freq );
+                fprintf( stderr, "-f (freq) default: %u\n",center_freq );
                 fprintf( stderr, "-m (mode 0=WFM,1=NFM,2=AM) default: %i\n",mode );
                 fprintf( stderr, "-g (gain) default: %i\n",gain );
                 fprintf( stderr, "-w (wavfile) default %s\n",wav_file);
