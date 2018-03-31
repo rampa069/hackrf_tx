@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
 	int sample_rate = wav->getSampleRate()*1.0 / SAMPLE_COUNT*BUF_LEN;
 
         printf("Sample_rate: %i",sample_rate);
-        sample_rate=5120000;
+        //sample_rate=5120000;
 
 	FMModulator *mod = new FMModulator(90, mode, sample_rate);
 	HackRFDevice *device = new HackRFDevice();
